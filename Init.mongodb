@@ -1,0 +1,12 @@
+const database = 'club';
+const collection = 'materials';
+
+use(database);
+
+db.createCollection(collection);
+
+db.materials.insertOne({
+name: "Sarah Wilson",
+age: 22
+});
+

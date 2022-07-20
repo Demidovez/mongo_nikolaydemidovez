@@ -7,14 +7,13 @@ services:
     ports:
       - 8008:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: ${ USERNAME }
-      MONGO_INITDB_ROOT_PASSWORD: ${ PASSWORD }
+      MONGO_INITDB_ROOT_USERNAME: ${USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${PASSWORD}
     volumes:
       - ./data:/data/db
     env_file:
       - .env
-
-networks:
-  default:
-    external: true
-    name: nikolaydemidovez_network
+# networks:
+#   default:
+#     external: true
+#     name: nikolaydemidovez_network
