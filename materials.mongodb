@@ -1,0 +1,100 @@
+const database = "club";
+const collection = "materials";
+
+use(database);
+
+db.materials.insertMany([{
+  title: "Советы начинающему бухгалтеру",
+  data: {},
+  desc: "Рассказываем самые лучшие советы бухгалтеру, вступившему на тернистый путь бехгалтерии",
+  author_id: "62d99abab645b5aec86f2a9a",
+  isActive: true,
+  categories: [
+    "62d9a31d3e2a8a765e4020d6"
+  , "62d9a31d3e2a8a765e4020d7"
+  , "62d9a31d3e2a8a765e4020d8"
+  , "62d9a31d3e2a8a765e4020d9"
+  , "62d9a31d3e2a8a765e4020da"
+  , "62d9a31d3e2a8a765e4020db"
+  , "62d9a31d3e2a8a765e4020dc"
+  , "62d9a31d3e2a8a765e4020dd"
+  , "62d9a31d3e2a8a765e4020de"],
+  createdAt: ISODate("2022-10-28T23:58:18Z"),
+  updatedAt: ISODate("2022-10-28T23:58:18Z"),
+},
+{
+  title: "Как искать клиентов?",
+  data: {},
+  desc: "Что, где, когда искать новых клиентов? Почему один новый лучше двух старых? На каких площадках следует искать?",
+  author_id: "62d99abab645b5aec86f2a9a",
+  isActive: true,
+  categories: [
+    "62d9a31d3e2a8a765e4020d6"
+  , "62d9a31d3e2a8a765e4020d7"
+  , "62d9a31d3e2a8a765e4020d8"
+  , "62d9a31d3e2a8a765e4020d9"
+  , "62d9a31d3e2a8a765e4020da"
+  , "62d9a31d3e2a8a765e4020db"
+  , "62d9a31d3e2a8a765e4020dc"
+  , "62d9a31d3e2a8a765e4020dd"
+  , "62d9a31d3e2a8a765e4020de"],
+  createdAt: ISODate("2022-11-28T23:58:18Z"),
+  updatedAt: ISODate("2022-11-28T23:58:18Z"),
+},
+{
+  title: "Топ 10 инструметов",
+  data: {},
+  desc: "Знали ли Вы хотябы 5 лучших инструментов? А мы знаем! И Вам расскажем!",
+  author_id: "62d99abab645b5aec86f2a9a",
+  isActive: true,
+  categories: [
+    "62d9a31d3e2a8a765e4020d6"
+  , "62d9a31d3e2a8a765e4020d7"
+  , "62d9a31d3e2a8a765e4020d8"
+  , "62d9a31d3e2a8a765e4020d9"
+  , "62d9a31d3e2a8a765e4020da"
+  , "62d9a31d3e2a8a765e4020db"
+  , "62d9a31d3e2a8a765e4020dc"
+  , "62d9a31d3e2a8a765e4020dd"
+  , "62d9a31d3e2a8a765e4020de"],
+  createdAt: ISODate("2022-12-28T23:58:18Z"),
+  updatedAt: ISODate("2022-12-28T23:58:18Z"),
+},
+{
+  title: "Инсайды на 2023 год!",
+  data: {},
+  desc: "Новости из мира бухгалтерии. На что следует акцентировать внимание, а на что нужно забить.",
+  author_id: "62d99abab645b5aec86f2a9a",
+  isActive: true,
+  categories: [
+    "62d9a31d3e2a8a765e4020d6"
+  , "62d9a31d3e2a8a765e4020d7"
+  , "62d9a31d3e2a8a765e4020d8"
+  , "62d9a31d3e2a8a765e4020d9"
+  , "62d9a31d3e2a8a765e4020da"
+  , "62d9a31d3e2a8a765e4020db"
+  , "62d9a31d3e2a8a765e4020dc"
+  , "62d9a31d3e2a8a765e4020dd"
+  , "62d9a31d3e2a8a765e4020de"],
+  createdAt: ISODate("2022-09-28T23:58:18Z"),
+  updatedAt: ISODate("2022-09-28T23:58:18Z"),
+},
+{
+  title: "Курс Бухгалтер 2022",
+  data: {},
+  desc: "Наш новый курс с новыми идеями, секретами и методикам. Ждем Вас здесь и сейчас!",
+  author_id: "62d99abab645b5aec86f2a9a",
+  isActive: true,
+  categories: [
+    "62d9a31d3e2a8a765e4020d6"
+  , "62d9a31d3e2a8a765e4020d7"
+  , "62d9a31d3e2a8a765e4020d8"
+  , "62d9a31d3e2a8a765e4020d9"
+  , "62d9a31d3e2a8a765e4020da"
+  , "62d9a31d3e2a8a765e4020db"
+  , "62d9a31d3e2a8a765e4020dc"
+  , "62d9a31d3e2a8a765e4020dd"
+  , "62d9a31d3e2a8a765e4020de"],
+  createdAt: ISODate("2022-08-28T23:58:18Z"),
+  updatedAt: ISODate("2022-08-28T23:58:18Z"),
+}]);

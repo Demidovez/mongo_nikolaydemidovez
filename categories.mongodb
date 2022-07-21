@@ -1,0 +1,54 @@
+const database = "club";
+const collection = "categories";
+
+use(database);
+
+// db.createCollection(collection)
+
+db.categories.insertMany([
+      {
+        title: "Статьи",
+        icon: "📑",
+        color: "#e6f5f9",
+      },
+      {
+        title: "Новости",
+        icon: "📰",
+        color: "#f4f5f9",
+      },
+      {
+        title: "Уроки",
+        icon: "📕",
+        color: "#f1e7ff",
+      },
+      {
+        title: "Тесты",
+        icon: "💻",
+        color: "#ffeee1",
+      },
+      {
+        title: "Видео",
+        icon: "🎥",
+        color: "#f9f8f2",
+      },
+      {
+        title: "Опросы",
+        icon: "📣",
+        color: "#F4FFD2",
+      },
+      {
+        title: "Курсы",
+        icon: "🎓",
+        color: "#FFCFD7",
+      },
+      {
+        title: "Калькуляторы",
+        icon: "🧮",
+        color: "#FFF3D0",
+      },
+      {
+        title: "Прочее",
+        icon: "🚀",
+        color: "#eefcef",
+      },
+      ]);

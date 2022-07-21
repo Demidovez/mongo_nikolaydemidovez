@@ -1,0 +1,23 @@
+const database = "club";
+const collection = "comments";
+
+use(database);
+
+db.comments.insertMany([{
+        material_id: "62d9a9df61664d7c28831302",
+        createdAt: ISODate("2022-09-28T23:58:18Z"),
+        text: "Очень крутая статья! Спасибо Вам огромное!!!",
+        user: "62d99b3f88a8c62a34ad801e",
+      },
+      {
+        material_id: "62d9a9df61664d7c28831302",
+        createdAt: ISODate("2022-11-28T23:58:18Z"),
+        text: "Немного не поняла пункт про ИП",
+        user: "62d99bdad4f8db25b312418f",
+      },
+      {
+        material_id: "62d9a9df61664d7c28831302",
+        createdAt: ISODate("2022-12-28T23:58:18Z"),
+        text: "Тема очень интересная и сложная, согласна с вами, не все так однозначно, особенно учитывая прошлый отчетный период",
+        user: "62d99abab645b5aec86f2a9a",
+      },]);
