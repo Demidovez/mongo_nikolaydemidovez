@@ -5,46 +5,43 @@ use(database);
 
 //db.createCollection(collection);
 
-// db.users.insertOne({
-//   first_name: "Николай",
-//   last_name: "Демидовец",
-//   parent_name: "Михайлович",
-//   roles: ["admin"],
-//   phone: "+375293473818",
-//   email: "nikolaydemidovez@gmail.com",
-//   avatar_color: "#e84393",
-//   avatar: null,
-// });
-
-// db.users.insertOne({
-//   first_name: "Наталия",
-//   last_name: "Завицкая",
-//   parent_name: "Владимировна",
-//   roles: ["admin"],
-//   phone: "+375291111111",
-//   email: "bux.uslugi_swetlogorsk@mail.ru",
-//   avatar_color: "#18dcff",
-//   avatar: null,
-// });
-
-// db.users.insertOne({
-//   first_name: "Ирина",
-//   last_name: "Петрова",
-//   parent_name: "Ивановна",
-//   roles: ["member"],
-//   phone: "+375(29)9876543",
-//   email: "example@mail.ru",
-//   avatar_color: "#ffcccc",
-//   avatar: null,
-// });
-
-// db.users.insertOne({
-//   first_name: "Людмила",
-//   last_name: "Светлогорская",
-//   parent_name: "Александровна",
-//   roles: ["freeuser"],
-//   phone: "+375(29)1234567",
-//   email: "someexample@mail.ru",
-//   avatar_color: "#fff200",
-//   avatar: null,
-// });
+db.users.insertMany([{
+  first_name: "Николай",
+  last_name: "Демидовец",
+  parent_name: "Михайлович",
+  roles: ["admin"],
+  phone: "+375293473818",
+  email: "nikolaydemidovez@gmail.com",
+  avatar_color: "#e84393",
+  avatar: null,
+},
+{
+  first_name: "Наталия",
+  last_name: "Завицкая",
+  parent_name: "Владимировна",
+  roles: ["admin"],
+  phone: "+375291111111",
+  email: "bux.uslugi_swetlogorsk@mail.ru",
+  avatar_color: "#18dcff",
+  avatar: null,
+}, 
+{
+  first_name: "Ирина",
+  last_name: "Петрова",
+  parent_name: "Ивановна",
+  roles: ["member"],
+  phone: "+375(29)9876543",
+  email: "example@mail.ru",
+  avatar_color: "#ffcccc",
+  avatar: null,
+}, 
+{
+  first_name: "Людмила",
+  last_name: "Светлогорская",
+  parent_name: "Александровна",
+  roles: ["freeuser"],
+  phone: "+375(29)1234567",
+  email: "someexample@mail.ru",
+  avatar_color: "#fff200",
+  avatar: null,
+}]);

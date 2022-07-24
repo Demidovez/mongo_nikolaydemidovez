@@ -10,17 +10,24 @@ db.materials.insertMany([{
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
   categories: [
-    "62d9a31d3e2a8a765e4020d6"
-  , "62d9a31d3e2a8a765e4020d7"
-  , "62d9a31d3e2a8a765e4020d8"
-  , "62d9a31d3e2a8a765e4020d9"
-  , "62d9a31d3e2a8a765e4020da"
-  , "62d9a31d3e2a8a765e4020db"
-  , "62d9a31d3e2a8a765e4020dc"
-  , "62d9a31d3e2a8a765e4020dd"
-  , "62d9a31d3e2a8a765e4020de"],
+      ObjectId("62d9a31d3e2a8a765e4020d6"),
+      ObjectId("62d9a31d3e2a8a765e4020d7"),
+      ObjectId("62d9a31d3e2a8a765e4020d8"),
+      ObjectId("62d9a31d3e2a8a765e4020d9"),
+      ObjectId("62d9a31d3e2a8a765e4020da"),
+      ObjectId("62d9a31d3e2a8a765e4020db"),
+      ObjectId("62d9a31d3e2a8a765e4020dc"),
+      ObjectId("62d9a31d3e2a8a765e4020dd"),
+      ObjectId("62d9a31d3e2a8a765e4020de")
+    ],
   createdAt: ISODate("2022-10-28T23:58:18Z"),
   updatedAt: ISODate("2022-10-28T23:58:18Z"),
+  likes: [
+    ObjectId("62dcbf24945d8ab30843e1a7"),
+    ObjectId("62dcbf24945d8ab30843e1a8"),
+    ObjectId("62dcbf24945d8ab30843e1a9"),
+    ObjectId("62dcbf24945d8ab30843e1aa"),
+  ]
 },
 {
   title: "Как искать клиентов?",
@@ -29,17 +36,23 @@ db.materials.insertMany([{
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
   categories: [
-    "62d9a31d3e2a8a765e4020d6"
-  , "62d9a31d3e2a8a765e4020d7"
-  , "62d9a31d3e2a8a765e4020d8"
-  , "62d9a31d3e2a8a765e4020d9"
-  , "62d9a31d3e2a8a765e4020da"
-  , "62d9a31d3e2a8a765e4020db"
-  , "62d9a31d3e2a8a765e4020dc"
-  , "62d9a31d3e2a8a765e4020dd"
-  , "62d9a31d3e2a8a765e4020de"],
+      ObjectId("62d9a31d3e2a8a765e4020d6"),
+      ObjectId("62d9a31d3e2a8a765e4020d7"),
+      ObjectId("62d9a31d3e2a8a765e4020d8"),
+      ObjectId("62d9a31d3e2a8a765e4020d9"),
+      ObjectId("62d9a31d3e2a8a765e4020da"),
+      ObjectId("62d9a31d3e2a8a765e4020db"),
+      ObjectId("62d9a31d3e2a8a765e4020dc"),
+      ObjectId("62d9a31d3e2a8a765e4020dd"),
+      ObjectId("62d9a31d3e2a8a765e4020de")
+    ],
   createdAt: ISODate("2022-11-28T23:58:18Z"),
   updatedAt: ISODate("2022-11-28T23:58:18Z"),
+  likes: [
+    ObjectId("62dcbf24945d8ab30843e1a7"),
+    ObjectId("62dcbf24945d8ab30843e1a8"),
+    ObjectId("62dcbf24945d8ab30843e1aa"),
+  ]
 },
 {
   title: "Топ 10 инструметов",
@@ -48,17 +61,23 @@ db.materials.insertMany([{
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
   categories: [
-    "62d9a31d3e2a8a765e4020d6"
-  , "62d9a31d3e2a8a765e4020d7"
-  , "62d9a31d3e2a8a765e4020d8"
-  , "62d9a31d3e2a8a765e4020d9"
-  , "62d9a31d3e2a8a765e4020da"
-  , "62d9a31d3e2a8a765e4020db"
-  , "62d9a31d3e2a8a765e4020dc"
-  , "62d9a31d3e2a8a765e4020dd"
-  , "62d9a31d3e2a8a765e4020de"],
+      ObjectId("62d9a31d3e2a8a765e4020d6"),
+      ObjectId("62d9a31d3e2a8a765e4020d7"),
+      ObjectId("62d9a31d3e2a8a765e4020d8"),
+      ObjectId("62d9a31d3e2a8a765e4020d9"),
+      ObjectId("62d9a31d3e2a8a765e4020da"),
+      ObjectId("62d9a31d3e2a8a765e4020db"),
+      ObjectId("62d9a31d3e2a8a765e4020dc"),
+      ObjectId("62d9a31d3e2a8a765e4020dd"),
+      ObjectId("62d9a31d3e2a8a765e4020de")
+    ],
   createdAt: ISODate("2022-12-28T23:58:18Z"),
   updatedAt: ISODate("2022-12-28T23:58:18Z"),
+  likes: [
+    ObjectId("62dcbf24945d8ab30843e1a8"),
+    ObjectId("62dcbf24945d8ab30843e1a9"),
+    ObjectId("62dcbf24945d8ab30843e1aa"),
+  ]
 },
 {
   title: "Инсайды на 2023 год!",
@@ -67,17 +86,19 @@ db.materials.insertMany([{
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
   categories: [
-    "62d9a31d3e2a8a765e4020d6"
-  , "62d9a31d3e2a8a765e4020d7"
-  , "62d9a31d3e2a8a765e4020d8"
-  , "62d9a31d3e2a8a765e4020d9"
-  , "62d9a31d3e2a8a765e4020da"
-  , "62d9a31d3e2a8a765e4020db"
-  , "62d9a31d3e2a8a765e4020dc"
-  , "62d9a31d3e2a8a765e4020dd"
-  , "62d9a31d3e2a8a765e4020de"],
+      ObjectId("62d9a31d3e2a8a765e4020d6"),
+      ObjectId("62d9a31d3e2a8a765e4020d7"),
+      ObjectId("62d9a31d3e2a8a765e4020d8"),
+      ObjectId("62d9a31d3e2a8a765e4020d9"),
+      ObjectId("62d9a31d3e2a8a765e4020da"),
+      ObjectId("62d9a31d3e2a8a765e4020db"),
+      ObjectId("62d9a31d3e2a8a765e4020dc"),
+      ObjectId("62d9a31d3e2a8a765e4020dd"),
+      ObjectId("62d9a31d3e2a8a765e4020de")
+    ],
   createdAt: ISODate("2022-09-28T23:58:18Z"),
   updatedAt: ISODate("2022-09-28T23:58:18Z"),
+  likes: []
 },
 {
   title: "Курс Бухгалтер 2022",
@@ -86,15 +107,20 @@ db.materials.insertMany([{
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
   categories: [
-    "62d9a31d3e2a8a765e4020d6"
-  , "62d9a31d3e2a8a765e4020d7"
-  , "62d9a31d3e2a8a765e4020d8"
-  , "62d9a31d3e2a8a765e4020d9"
-  , "62d9a31d3e2a8a765e4020da"
-  , "62d9a31d3e2a8a765e4020db"
-  , "62d9a31d3e2a8a765e4020dc"
-  , "62d9a31d3e2a8a765e4020dd"
-  , "62d9a31d3e2a8a765e4020de"],
+      ObjectId("62d9a31d3e2a8a765e4020d6"),
+      ObjectId("62d9a31d3e2a8a765e4020d7"),
+      ObjectId("62d9a31d3e2a8a765e4020d8"),
+      ObjectId("62d9a31d3e2a8a765e4020d9"),
+      ObjectId("62d9a31d3e2a8a765e4020da"),
+      ObjectId("62d9a31d3e2a8a765e4020db"),
+      ObjectId("62d9a31d3e2a8a765e4020dc"),
+      ObjectId("62d9a31d3e2a8a765e4020dd"),
+      ObjectId("62d9a31d3e2a8a765e4020de")
+    ],
   createdAt: ISODate("2022-08-28T23:58:18Z"),
   updatedAt: ISODate("2022-08-28T23:58:18Z"),
+  likes: [
+    ObjectId("62dcbf24945d8ab30843e1a7"),
+    ObjectId("62dcbf24945d8ab30843e1aa"),
+  ]
 }]);

@@ -51,4 +51,4 @@ db.categories.insertMany([
         icon: "🚀",
         color: "#eefcef",
       },
-      ]);
+]);
