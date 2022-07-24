@@ -3,16 +3,17 @@ const collection = "materials";
 
 use(database);
 
+db.materials.drop();
+
 db.materials.insertMany([{
+  _id: ObjectId("62dd22b8d2f8338f50ad8d47"),
   title: "Советы начинающему бухгалтеру",
   data: {},
   desc: "Рассказываем самые лучшие советы бухгалтеру, вступившему на тернистый путь бехгалтерии",
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
-  categories: [
-      ObjectId("62d9a31d3e2a8a765e4020d6"),
-      ObjectId("62d9a31d3e2a8a765e4020d7"),
-      ObjectId("62d9a31d3e2a8a765e4020d8"),
+  image: "buhgalter.jpeg",
+  categories_ids: [
       ObjectId("62d9a31d3e2a8a765e4020d9"),
       ObjectId("62d9a31d3e2a8a765e4020da"),
       ObjectId("62d9a31d3e2a8a765e4020db"),
@@ -22,7 +23,7 @@ db.materials.insertMany([{
     ],
   createdAt: ISODate("2022-10-28T23:58:18Z"),
   updatedAt: ISODate("2022-10-28T23:58:18Z"),
-  likes: [
+  users_liked_ids: [
     ObjectId("62dcbf24945d8ab30843e1a7"),
     ObjectId("62dcbf24945d8ab30843e1a8"),
     ObjectId("62dcbf24945d8ab30843e1a9"),
@@ -30,96 +31,88 @@ db.materials.insertMany([{
   ]
 },
 {
+  _id: ObjectId("62dd22b8d2f8338f50ad8d48"),
   title: "Как искать клиентов?",
   data: {},
   desc: "Что, где, когда искать новых клиентов? Почему один новый лучше двух старых? На каких площадках следует искать?",
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
-  categories: [
+  image: "calculator.jpeg",
+  categories_ids: [
       ObjectId("62d9a31d3e2a8a765e4020d6"),
       ObjectId("62d9a31d3e2a8a765e4020d7"),
-      ObjectId("62d9a31d3e2a8a765e4020d8"),
-      ObjectId("62d9a31d3e2a8a765e4020d9"),
-      ObjectId("62d9a31d3e2a8a765e4020da"),
-      ObjectId("62d9a31d3e2a8a765e4020db"),
       ObjectId("62d9a31d3e2a8a765e4020dc"),
       ObjectId("62d9a31d3e2a8a765e4020dd"),
       ObjectId("62d9a31d3e2a8a765e4020de")
     ],
   createdAt: ISODate("2022-11-28T23:58:18Z"),
   updatedAt: ISODate("2022-11-28T23:58:18Z"),
-  likes: [
+  users_liked_ids: [
     ObjectId("62dcbf24945d8ab30843e1a7"),
     ObjectId("62dcbf24945d8ab30843e1a8"),
     ObjectId("62dcbf24945d8ab30843e1aa"),
   ]
 },
 {
+  _id: ObjectId("62dd22b8d2f8338f50ad8d49"),
   title: "Топ 10 инструметов",
   data: {},
   desc: "Знали ли Вы хотябы 5 лучших инструментов? А мы знаем! И Вам расскажем!",
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
-  categories: [
+  image: "caunter.jpeg",
+  categories_ids: [
       ObjectId("62d9a31d3e2a8a765e4020d6"),
       ObjectId("62d9a31d3e2a8a765e4020d7"),
       ObjectId("62d9a31d3e2a8a765e4020d8"),
       ObjectId("62d9a31d3e2a8a765e4020d9"),
       ObjectId("62d9a31d3e2a8a765e4020da"),
-      ObjectId("62d9a31d3e2a8a765e4020db"),
-      ObjectId("62d9a31d3e2a8a765e4020dc"),
-      ObjectId("62d9a31d3e2a8a765e4020dd"),
       ObjectId("62d9a31d3e2a8a765e4020de")
     ],
   createdAt: ISODate("2022-12-28T23:58:18Z"),
   updatedAt: ISODate("2022-12-28T23:58:18Z"),
-  likes: [
+  users_liked_ids: [
     ObjectId("62dcbf24945d8ab30843e1a8"),
     ObjectId("62dcbf24945d8ab30843e1a9"),
     ObjectId("62dcbf24945d8ab30843e1aa"),
   ]
 },
 {
+  _id: ObjectId("62dd22b8d2f8338f50ad8d4a"),
   title: "Инсайды на 2023 год!",
   data: {},
   desc: "Новости из мира бухгалтерии. На что следует акцентировать внимание, а на что нужно забить.",
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
-  categories: [
+  image: "woman.jpeg",
+  categories_ids: [
       ObjectId("62d9a31d3e2a8a765e4020d6"),
       ObjectId("62d9a31d3e2a8a765e4020d7"),
       ObjectId("62d9a31d3e2a8a765e4020d8"),
       ObjectId("62d9a31d3e2a8a765e4020d9"),
-      ObjectId("62d9a31d3e2a8a765e4020da"),
-      ObjectId("62d9a31d3e2a8a765e4020db"),
-      ObjectId("62d9a31d3e2a8a765e4020dc"),
-      ObjectId("62d9a31d3e2a8a765e4020dd"),
-      ObjectId("62d9a31d3e2a8a765e4020de")
     ],
   createdAt: ISODate("2022-09-28T23:58:18Z"),
   updatedAt: ISODate("2022-09-28T23:58:18Z"),
-  likes: []
+  users_liked_ids: []
 },
 {
+  _id: ObjectId("62dd22b8d2f8338f50ad8d4b"),
   title: "Курс Бухгалтер 2022",
   data: {},
   desc: "Наш новый курс с новыми идеями, секретами и методикам. Ждем Вас здесь и сейчас!",
   author_id: "62d99abab645b5aec86f2a9a",
   isActive: true,
-  categories: [
+  image: "",
+  categories_ids: [
       ObjectId("62d9a31d3e2a8a765e4020d6"),
-      ObjectId("62d9a31d3e2a8a765e4020d7"),
-      ObjectId("62d9a31d3e2a8a765e4020d8"),
-      ObjectId("62d9a31d3e2a8a765e4020d9"),
       ObjectId("62d9a31d3e2a8a765e4020da"),
       ObjectId("62d9a31d3e2a8a765e4020db"),
       ObjectId("62d9a31d3e2a8a765e4020dc"),
-      ObjectId("62d9a31d3e2a8a765e4020dd"),
-      ObjectId("62d9a31d3e2a8a765e4020de")
+      ObjectId("62d9a31d3e2a8a765e4020dd")
     ],
   createdAt: ISODate("2022-08-28T23:58:18Z"),
   updatedAt: ISODate("2022-08-28T23:58:18Z"),
-  likes: [
+  users_liked_ids: [
     ObjectId("62dcbf24945d8ab30843e1a7"),
     ObjectId("62dcbf24945d8ab30843e1aa"),
   ]

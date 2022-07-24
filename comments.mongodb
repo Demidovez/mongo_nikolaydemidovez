@@ -4,37 +4,37 @@ const collection = "comments";
 use(database);
 
 db.comments.insertMany([{
-        material_id: ObjectId("62dbbbcf152f524e38a417eb"),
+        material_id: ObjectId("62dd22b8d2f8338f50ad8d48"),
         createdAt: ISODate("2022-09-28T23:58:18Z"),
         text: "Очень крутая статья! Спасибо Вам огромное!!!",
         user: ObjectId("62d99b3f88a8c62a34ad801e"),
       },
       {
-        material_id: ObjectId("62dbbbcf152f524e38a417eb"),
+        material_id: ObjectId("62dd22b8d2f8338f50ad8d48"),
         createdAt: ISODate("2022-09-29T23:58:18Z"),
         text: "А мне статья не понравилась :(",
         user: ObjectId("62dcb7d87546603727dd07cc"),
       },
       {
-        material_id: ObjectId("62dbbbcf152f524e38a417ee"),
+        material_id: ObjectId("62dd22b8d2f8338f50ad8d47"),
         createdAt: ISODate("2022-11-28T23:58:18Z"),
         text: "Немного не поняла пункт про ИП",
         user: ObjectId("62d99bdad4f8db25b312418f"),
       },
       {
-        material_id: ObjectId("62dbbbcf152f524e38a417ee"),
+        material_id: ObjectId("62dd22b8d2f8338f50ad8d47"),
         createdAt: ISODate("2022-11-28T23:58:18Z"),
         text: "Если я выбрал ИП патент и моя компания сделала 1 000 000 ₽ оборота за год и у меня 4 сотрудника, то сколько я заплачу всех налогов? Произвожу стельки из кожи и ювелирный шнур. Здравствуйте.",
         user: ObjectId("62dcb7d87546603727dd07cb"),
       },
       {
-        material_id: ObjectId("62dbbbcf152f524e38a417ed"),
+        material_id: ObjectId("62dd22b8d2f8338f50ad8d49"),
         createdAt: ISODate("2022-12-28T23:58:18Z"),
         text: "Тема очень интересная и сложная, согласна с вами, не все так однозначно, особенно учитывая прошлый отчетный период",
         user: ObjectId("62dcb7d87546603727dd07ca"),
       },
       {
-        material_id: ObjectId("62dbbbcf152f524e38a417ed"),
+        material_id: ObjectId("62dd22b8d2f8338f50ad8d49"),
         createdAt: ISODate("2022-12-28T23:58:18Z"),
         text: "Моя мама говорит, что если я отучусь на бухгалтера, я буду работать в магазине на кассе, потому что эта профессия скоро станет не такой нужной. Правда ли, что со временем бухгалтер станет не таким востребованным, и не понизится ли у него зарплата ниже плинтуса?",
         user: ObjectId("62d99abab645b5aec86f2a9a"),
