@@ -1,8 +1,8 @@
 version: "3.9"
 services:
-  mongo_autohunt:
+  mongo_db:
     image: mongo:latest
-    container_name: mongo_nikolaydemidovez_co
+    container_name: mongo_db_co
     restart: unless-stopped
     ports:
       - 8008:27017
