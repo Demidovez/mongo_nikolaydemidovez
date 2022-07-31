@@ -108,7 +108,8 @@ db.materials.insertMany([{
       ObjectId("62d9a31d3e2a8a765e4020da"),
       ObjectId("62d9a31d3e2a8a765e4020db"),
       ObjectId("62d9a31d3e2a8a765e4020dc"),
-      ObjectId("62d9a31d3e2a8a765e4020dd")
+      ObjectId("62d9a31d3e2a8a765e4020dd"),
+      ObjectId("62d9a31d3e2a8a765e4020d9"),
     ],
   createdAt: ISODate("2022-08-28T23:58:18Z"),
   updatedAt: ISODate("2022-08-28T23:58:18Z"),
