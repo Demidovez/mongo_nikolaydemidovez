@@ -8,6 +8,7 @@ db.materials.drop();
 db.materials.insertMany([{
   _id: ObjectId("62dd22b8d2f8338f50ad8d47"),
   title: "Советы начинающему бухгалтеру",
+  name: "sovety-nachinayushchemu-buhgalteru",
   data: {},
   desc: "Рассказываем самые лучшие советы бухгалтеру, вступившему на тернистый путь бехгалтерии",
   author_id: "62d99abab645b5aec86f2a9a",
@@ -33,6 +34,7 @@ db.materials.insertMany([{
 {
   _id: ObjectId("62dd22b8d2f8338f50ad8d48"),
   title: "Как искать клиентов?",
+  name: "kak-iskat-klientov",
   data: {},
   desc: "Что, где, когда искать новых клиентов? Почему один новый лучше двух старых? На каких площадках следует искать?",
   author_id: "62d99abab645b5aec86f2a9a",
@@ -56,6 +58,7 @@ db.materials.insertMany([{
 {
   _id: ObjectId("62dd22b8d2f8338f50ad8d49"),
   title: "Топ 10 инструметов",
+  name: "top-10-instrumetov",
   data: {},
   desc: "Знали ли Вы хотябы 5 лучших инструментов? А мы знаем! И Вам расскажем!",
   author_id: "62d99abab645b5aec86f2a9a",
@@ -80,6 +83,7 @@ db.materials.insertMany([{
 {
   _id: ObjectId("62dd22b8d2f8338f50ad8d4a"),
   title: "Инсайды на 2023 год!",
+  name: "insajdy-na-2023-god",
   data: {},
   desc: "Новости из мира бухгалтерии. На что следует акцентировать внимание, а на что нужно забить.",
   author_id: "62d99abab645b5aec86f2a9a",
@@ -98,6 +102,7 @@ db.materials.insertMany([{
 {
   _id: ObjectId("62dd22b8d2f8338f50ad8d4b"),
   title: "Курс Бухгалтер 2022",
+  name: "kurs-buhgalter-2022",
   data: {},
   desc: "Наш новый курс с новыми идеями, секретами и методикам. Ждем Вас здесь и сейчас!",
   author_id: "62d99abab645b5aec86f2a9a",
